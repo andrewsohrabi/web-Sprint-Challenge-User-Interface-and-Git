@@ -78,6 +78,7 @@ header {
     justify-content: flex-start;
     margin-bottom:5%;
     margin-top:2%;
+    /* border: solid black 1px; */
 }
 
 header nav{
@@ -93,6 +94,16 @@ header nav a{
     color:black;
     font-size:15px;
 }
+
+.about_header {
+    margin: 2% auto;
+}
+
+/* container styling */
+.container-about-page {
+    /* border: solid black 1px; */
+}
+
 
 /* top content styling */
 
@@ -113,6 +124,96 @@ header nav a{
 .top-content img{
     margin:0 0 2% 0;;
 }
+
+/* about.html styling */
+.top_section {
+    border-bottom: dotted black 2px;
+    padding:3%;
+}
+
+.top_section h2{
+    padding: 2% 0 0 0;
+}
+
+.middle_section {
+    
+    padding:1%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.strategy {
+    width:40%;
+    border-bottom: dotted black 2px;
+    padding: 5% 0 5% 0;
+}
+
+.how_we_work {
+    width:40%;
+    padding: 5% 0 1% 0;
+    border-bottom: dotted black 2px;
+    /* background-color: purple; */
+    
+}
+
+.places_we_work {
+    width:40%;
+    padding: 5% 0 5% 0;
+    border-bottom: dotted black 2px;
+}
+
+.collaboration {
+    width:40%;
+    padding: 5% 0 5% 0;
+    border-bottom: dotted black 2px;
+}
+
+/* .middle_section .strategy {
+    border: solid black 1px;
+    padding:1%;
+    width:20%;
+} */
+
+.middle_section img {
+    /* border: solid black 1px; */
+    padding:2%;
+    width:100%;
+}
+
+/* .middle_section .how_we_work {
+    /* border: solid black 1px; */
+    /* padding:1%; */
+    /* width:20%; */
+/* } */ */
+
+.middle_section_text{
+    /* border: solid black 1px; */
+    padding:1%;
+}
+
+.description {
+    /* border:solid black 2px; */
+    margin:0 0 5% 0;
+    /* padding: 3%; */
+}
+
+
+.middle_section a{
+    text-decoration: none;
+    color:black;
+    border:solid black 2px;
+    padding: 2%;
+}
+
+.bottom_section{
+    padding:7% 0 7% 0;
+}
+
+
+
 
 
 /* middle content styling */
@@ -184,6 +285,7 @@ header nav a{
 .box10 {
     background-color: dodgerblue;
 }
+
 
 /* 
 bottom content styling */
